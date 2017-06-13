@@ -12,6 +12,9 @@ class Player {
   }
 
   //TODO: Add Stop()
+  stop(){
+    console.log('Stop');
+  }
 
   add(song){
     this.playlist.push(song);
